@@ -1,0 +1,154 @@
+.contact-page {
+  min-height: 100vh;
+  background: #000;
+  padding-top: 100px;
+}
+
+.contact-main {
+  padding: 80px 5%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.contact-grid-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.contact-heading {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+
+.contact-text {
+  color: #999;
+  line-height: 1.8;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.contact-method {
+  border-top: 2px solid #222;
+  padding-top: 20px;
+}
+
+.method-label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.method-value {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: block;
+  line-height: 1.6;
+}
+
+.method-value:hover {
+  color: #3b82f6;
+}
+
+.response-box-page {
+  background: #0a0a0a;
+  border: 2px solid #3b82f6;
+  padding: 40px;
+  position: relative;
+}
+
+.response-number {
+  font-size: 56px;
+  font-weight: 900;
+  color: #3b82f6;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.response-label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #999;
+}
+
+.social-links-large {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: #3b82f6;
+}
+
+.social-link-large {
+  background: #0a0a0a;
+  border: 2px solid #222;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.social-link-large:hover {
+  border-color: #3b82f6;
+  padding-left: 60px;
+}
+
+.social-name {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.social-arrow {
+  font-size: 32px;
+  color: #3b82f6;
+}
+
+.map-section {
+  background: #0a0a0a;
+  padding: 100px 5%;
+  border-top: 2px solid #3b82f6;
+}
+
+.map-placeholder {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 400px;
+  background: #000;
+  border: 2px solid #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.map-marker {
+  font-size: 48px;
+}
+
+.map-placeholder p {
+  color: #999;
+  font-size: 18px;
+}
+
+@media (max-width: 968px) {
+  .contact-grid-page {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+}

@@ -1,0 +1,134 @@
+.why-us {
+  padding: 100px 0;
+  background: #0a0a0a;
+  border-top: 1px solid #1a1a1a;
+}
+
+.why-us-header {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px 60px;
+}
+
+.why-us-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #3b82f6;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.why-us-title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 0.95;
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+.why-us-title .highlight {
+  color: #3b82f6;
+  font-style: italic;
+}
+
+.why-us-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  background: linear-gradient(180deg, #0a0a0a 0%, #111111 100%);
+  padding: 50px;
+  border: 1px solid #1a1a1a;
+}
+
+.reason-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 20px;
+  border-left: 3px solid #1a1a1a;
+}
+
+.reason-card:hover {
+  border-left-color: #3b82f6;
+  padding-left: 30px;
+}
+
+.reason-number {
+  font-size: 56px;
+  font-weight: 900;
+  color: #3b82f6;
+  line-height: 1;
+  opacity: 0.5;
+}
+
+.reason-title {
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.reason-description {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #999;
+  margin: 0;
+}
+
+@media (max-width: 968px) {
+  .why-us-header {
+    padding: 0 20px 40px;
+  }
+
+  .why-us-title {
+    font-size: 48px;
+  }
+
+  .why-us-container {
+    padding: 0 20px;
+  }
+
+  .reasons-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 30px;
+  }
+
+  .reason-number {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .why-us {
+    padding: 60px 0;
+  }
+
+  .why-us-title {
+    font-size: 36px;
+  }
+
+  .reasons-grid {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .reason-card {
+    padding: 15px;
+  }
+
+  .reason-card:hover {
+    padding-left: 25px;
+  }
+}

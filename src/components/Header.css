@@ -1,0 +1,102 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(13, 13, 18, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(59, 130, 246, 0.2);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 4rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.logo-image {
+  height: 45px;
+  width: auto;
+  transition: opacity 0.3s ease;
+}
+
+.logo-image:hover {
+  opacity: 0.8;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  transition: all 0.2s ease;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.nav-link:hover {
+  color: #3b82f6;
+}
+
+.nav-divider {
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.nav-cta {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #3b82f6;
+  padding: 0.7rem 1.8rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1.5px;
+  font-family: "JetBrains Mono", monospace;
+  text-decoration: none;
+}
+
+.nav-cta:hover {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.header-grid-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #3b82f6, transparent);
+  opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 1rem 2rem;
+  }
+
+  .nav {
+    gap: 2rem;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  .nav-divider {
+    display: none;
+  }
+
+  .logo-image {
+    height: 40px;
+  }
+}
