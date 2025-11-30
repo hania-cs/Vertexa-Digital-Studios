@@ -15,7 +15,6 @@ function Home() {
       <Services />
       <About />
       <Projects />
-      <Packages />
         <WhyUs />
         <OurProcess />  
         <CTA />
