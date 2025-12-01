@@ -8,7 +8,6 @@ function ContactPage() {
         <h1 className="page-title">
           CONTACT<span className="title-dot">.</span>
         </h1>
-        <p className="page-subtitle">Let's start a conversation about your next project.</p>
       </section>
 
       <section className="contact-main">

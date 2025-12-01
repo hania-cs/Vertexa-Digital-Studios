@@ -5,7 +5,8 @@ function ProjectsPage() {
     {
       title: "Tiramisu Choice",
       category: "DESSERT BRAND",
-      description: "A clean, responsive landing page crafted for a dessert brand, combining modern visuals with a warm, minimal aesthetic. The design highlights the product through strong imagery, clear messaging, and an intuitive layout that feels both polished and inviting.",
+      description:
+        "A clean, responsive landing page crafted for a dessert brand, combining modern visuals with a warm, minimal aesthetic. The design highlights the product through strong imagery, clear messaging, and an intuitive layout that feels both polished and inviting.",
       tech: ["React"],
       year: "2025",
       image: "/tiramisu.png",
@@ -14,7 +15,8 @@ function ProjectsPage() {
     {
       title: "Manuela Frierre Portfolio",
       category: "Personal Portfolio",
-      description: "A clean, responsive personal portfolio site designed to showcase a psychology student's skills and work. Strong visuals, thoughtful layout, and simple structure make it easy for visitors to understand the brand, explore projects, and connect with the creator, resulting in a professional and memorable online presence.",
+      description:
+        "A clean, responsive personal portfolio site designed to showcase a psychology student's skills and work. Strong visuals, thoughtful layout, and simple structure make it easy for visitors to understand the brand, explore projects, and connect with the creator, resulting in a professional and memorable online presence.",
       tech: ["React"],
       year: "2024",
       image: "/portfolio.png",
@@ -23,14 +25,13 @@ function ProjectsPage() {
     {
       title: "Jingle Gings",
       category: "SMALL COOKIE BUSINESS",
-      description: "A clean, responsive web project designed to deliver a friendly, engaging user experience. The design blends modern visual style with intuitive navigation, giving users a smooth flow from landing to content exploration. With clear messaging, balanced layout, and thoughtful UI choices, JingleGings presents a welcoming and professional online presence that reflects strong design sensibilities and usability focus.",
+      description:
+        "A clean, responsive web project designed to deliver a friendly, engaging user experience. The design blends modern visual style with intuitive navigation, giving users a smooth flow from landing to content exploration. With clear messaging, balanced layout, and thoughtful UI choices, JingleGings presents a welcoming and professional online presence that reflects strong design sensibilities and usability focus.",
       link: "https://jingle-gings.vercel.app/",
       tech: ["React"],
       year: "2023",
       image: "/jingle.png",
-      
     },
- 
   ]
 
   return (
@@ -64,10 +65,10 @@ function ProjectsPage() {
                   </span>
                 ))}
               </div>
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link-page">
-                  <span>VIEW PROJECT</span>
-                  <span className="link-arrow">→</span>
-                </a>
+              <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link-page">
+                <span>VIEW PROJECT</span>
+                <span className="link-arrow">→</span>
+              </a>
             </div>
           </div>
         ))}

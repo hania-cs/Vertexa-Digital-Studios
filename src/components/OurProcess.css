@@ -1,13 +1,13 @@
 .our-process {
-  padding: 100px 0;
-  background: linear-gradient(180deg, #111111 0%, #0a0a0a 100%);
-  border-top: 1px solid #1a1a1a;
+  padding: 100px 5%;
+  background: #000;
 }
 
 .process-header {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 0 40px 60px;
+  padding: 0 0 80px;
+  text-align: center;
 }
 
 .process-label {
@@ -15,14 +15,15 @@
   font-weight: 700;
   letter-spacing: 3px;
   color: #3b82f6;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   text-transform: uppercase;
+  display: block;
 }
 
 .process-title {
-  font-size: 72px;
+  font-size: 56px;
   font-weight: 900;
-  line-height: 0.95;
+  line-height: 1;
   color: #ffffff;
   margin: 0 0 20px 0;
   text-transform: uppercase;
@@ -42,39 +43,52 @@
 }
 
 .process-timeline {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 0 40px;
 }
 
+/* Changed to 3-column grid matching culture section */
 .process-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 50px;
-}
-
-.process-step {
-  display: flex;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  position: relative;
 }
 
-.step-connector {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* Updated step styling to match culture items */
+.process-step {
+  background: #0a0a0a;
+  padding: 60px 40px;
+  border: 2px solid #222;
+  transition: all 0.4s ease;
   position: relative;
-  min-width: 40px;
+  text-align: center;
 }
 
-.connector-line {
+/* Added bottom border animation on hover */
+.process-step::before {
+  content: "";
   position: absolute;
-  top: 60px;
+  bottom: 0;
   left: 50%;
-  width: 2px;
-  height: calc(100% + 30px);
-  background: linear-gradient(180deg, #3b82f6 0%, #3b82f6 50%, transparent 100%);
   transform: translateX(-50%);
+  width: 0%;
+  height: 3px;
+  background: #3b82f6;
+  transition: width 0.4s ease;
+}
+
+.process-step:hover::before {
+  width: 80%;
+}
+
+.process-step:hover {
+  border-color: #3b82f6;
+  transform: translateY(-10px);
+}
+
+/* Removed connector elements */
+.step-connector {
+  display: none;
 }
 
 .step-content {
@@ -87,7 +101,7 @@
   background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
   color: #000;
   border-radius: 50%;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   font-size: 28px;
@@ -102,54 +116,45 @@
 }
 
 .step-title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 900;
   color: #ffffff;
   margin: 0 0 15px 0;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 
 .step-description {
-  font-size: 15px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.8;
   color: #999;
   margin: 0;
 }
 
 @media (max-width: 968px) {
   .process-header {
-    padding: 0 20px 40px;
+    padding: 0 0 40px;
   }
 
   .process-title {
     font-size: 48px;
   }
 
-  .process-timeline {
-    padding: 0 20px;
-  }
-
   .process-container {
     grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .connector-line {
-    display: none;
-  }
-
-  .step-connector {
-    margin-right: 10px;
   }
 }
 
 @media (max-width: 640px) {
   .our-process {
-    padding: 60px 0;
+    padding: 60px 5%;
   }
 
   .process-title {
     font-size: 36px;
+  }
+
+  .process-step {
+    padding: 50px 40px;
   }
 
   .step-badge {
@@ -159,10 +164,10 @@
   }
 
   .step-title {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .step-description {
-    font-size: 14px;
+    font-size: 15px;
   }
 }

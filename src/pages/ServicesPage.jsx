@@ -54,7 +54,6 @@ function ServicesPage() {
         <h1 className="page-title">
           SERVICES<span className="title-dot">.</span>
         </h1>
-        <p className="page-subtitle">Full-spectrum digital solutions. From concept to deployment.</p>
       </section>
 
       <section className="services-container">

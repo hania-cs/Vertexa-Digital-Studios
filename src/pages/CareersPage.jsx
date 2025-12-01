@@ -33,30 +33,12 @@ function CareersPage() {
   ]
 
   return (
-    <div className="careers-page">
-      <section className="careers-hero">
-        <div className="careers-hero-content">
-          <span className="careers-tag">[JOIN THE TEAM]</span>
-          <h1 className="careers-title">
-            BUILD THE
-            <br />
-            <span className="careers-title-highlight">FUTURE</span>
-            <br />
-            WITH US.
-          </h1>
-          <p className="careers-description">
-            We're always looking for talented individuals who want to push boundaries and create exceptional digital
-            experiences.
-          </p>
-          <div className="careers-stats">
-           
-            <div className="careers-stat">
-              <div className="careers-stat-number">100%</div>
-              <div className="careers-stat-label">REMOTE FRIENDLY</div>
-            </div>
-           
-          </div>
-        </div>
+    <div className="about-page">
+       <section className="page-hero">
+        <span className="page-tag">[JOIN US]</span>
+        <h1 className="page-title">
+          CAREERS<span className="title-dot">.</span>
+        </h1>
       </section>
 
       <section className="careers-positions">

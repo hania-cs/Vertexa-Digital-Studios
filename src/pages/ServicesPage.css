@@ -5,26 +5,27 @@
 }
 
 .page-hero {
-  padding: 80px 5%;
-  max-width: 1400px;
+  text-align: center;
+  padding: 50px 5% 30px; /* Increased top padding from 30px to 50px for a tiny bit more top margin */
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .page-tag {
-  font-family: "Courier New", monospace;
+  font-size: 12px;
+  letter-spacing: 3px;
   color: #3b82f6;
-  font-size: 14px;
-  letter-spacing: 2px;
+  font-weight: 700;
+  display: inline-block;
   margin-bottom: 20px;
-  display: block;
 }
 
 .page-title {
-  font-size: clamp(60px, 10vw, 120px);
+  font-size: 120px;
   font-weight: 900;
-  margin: 20px 0;
-  line-height: 0.9;
-  letter-spacing: -3px;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: -4px;
 }
 
 .title-dot {

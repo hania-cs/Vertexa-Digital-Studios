@@ -3,7 +3,33 @@
   background: #000;
   padding-top: 100px;
 }
+.page-hero {
+  text-align: center;
+  padding: 50px 5% 30px; /* Increased top padding from 30px to 50px for a tiny bit more top margin */
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.page-tag {
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #3b82f6;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 120px;
+  font-weight: 900;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: -4px;
+}
+
+.title-dot {
+  color: #3b82f6;
+}
 .contact-main {
   padding: 80px 5%;
   max-width: 1400px;
