@@ -14,6 +14,7 @@ function Projects() {
       description:
         "A clean, responsive landing page crafted for a dessert brand, combining modern visuals with a warm, minimal aesthetic. The design highlights the product through strong imagery, clear messaging, and an intuitive layout that feels both polished and inviting. The result is a simple yet memorable online presence that makes it easy for visitors to understand the brand and engage with the site.",
       link: "https://tiramisuchoice.vercel.app/",
+      image: "/tiramisu.png",
     },
     {
       title: "Manuela Frierre Portfolio",
@@ -22,6 +23,7 @@ function Projects() {
       description:
         "A clean, responsive personal portfolio site designed to showcase a psychology student's skills and work. The design combines minimal aesthetics with clear messaging and intuitive navigation, creating a polished and engaging experience. Strong visuals, thoughtful layout, and simple structure make it easy for visitors to understand the brand, explore projects, and connect with the creator, resulting in a professional and memorable online presence.",
       link: "https://manuelaportfolio.vercel.app/",
+      image: "/portfolio.png",
     },
     {
       title: "Jingle Gings",
@@ -30,6 +32,7 @@ function Projects() {
       description:
         "A clean, responsive web project designed to deliver a friendly, engaging user experience. The design blends modern visual style with intuitive navigation, giving users a smooth flow from landing to content exploration. With clear messaging, balanced layout, and thoughtful UI choices, JingleGings presents a welcoming and professional online presence that reflects strong design sensibilities and usability focus.",
       link: "https://jingle-gings.vercel.app/",
+      image: "/jingle.png",
     },
   ]
 
@@ -60,7 +63,7 @@ function Projects() {
     <div className="projects">
       <div className="projects-header">
         <div className="projects-header-content">
-          <div className="projects-label">SELECTED WORK</div>
+          <div className="projects-label">[SELECTED WORK]</div>
           <h2 className="projects-title">
             PROJECTS THAT
             <br />
