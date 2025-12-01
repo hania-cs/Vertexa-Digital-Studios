@@ -325,3 +325,185 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Added comprehensive mobile breakpoints for better small screen support */
+@media (max-width: 640px) {
+  .page-hero {
+    padding: 40px 20px 30px;
+  }
+
+  .page-tag {
+    font-size: 11px;
+  }
+
+  .page-title {
+    font-size: 56px;
+    letter-spacing: -3px;
+  }
+
+  .page-subtitle {
+    font-size: 16px;
+  }
+
+  .careers-stats {
+    gap: 15px;
+  }
+
+  .careers-stat {
+    min-width: 140px;
+  }
+
+  .careers-stat-number {
+    font-size: 40px;
+  }
+
+  .careers-positions-title {
+    font-size: 36px;
+  }
+
+  .career-card-title {
+    font-size: 22px;
+  }
+
+  .careers-culture-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-hero {
+    padding: 30px 15px 25px;
+  }
+
+  .page-tag {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .page-title {
+    font-size: 36px;
+    letter-spacing: -2px;
+  }
+
+  .page-subtitle {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .careers-stats {
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .careers-stat {
+    min-width: 120px;
+    padding: 20px 15px;
+  }
+
+  .careers-stat-number {
+    font-size: 36px;
+  }
+
+  .careers-stat-label {
+    font-size: 11px;
+  }
+
+  .careers-positions {
+    padding: 50px 15px;
+  }
+
+  .careers-positions-header {
+    margin-bottom: 40px;
+  }
+
+  .careers-positions-tag {
+    font-size: 12px;
+  }
+
+  .careers-positions-title {
+    font-size: 28px;
+  }
+
+  .careers-positions-list {
+    gap: 25px;
+  }
+
+  .career-card {
+    padding: 25px 15px;
+  }
+
+  .career-card-header {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+
+  .career-card-top {
+    gap: 15px;
+  }
+
+  .career-card-title {
+    font-size: 20px;
+  }
+
+  .career-card-meta {
+    gap: 10px;
+  }
+
+  .career-card-type,
+  .career-card-location {
+    font-size: 11px;
+    padding: 6px 12px;
+  }
+
+  .career-card-description {
+    font-size: 14px;
+  }
+
+  .career-card-requirements {
+    margin-bottom: 25px;
+  }
+
+  .career-card-requirements-title {
+    font-size: 12px;
+  }
+
+  .career-card-requirements-list li {
+    font-size: 13px;
+    padding-left: 18px;
+  }
+
+  .career-card-apply {
+    padding: 12px 30px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+
+  .careers-culture {
+    padding: 50px 15px;
+  }
+
+  .careers-culture-tag {
+    font-size: 12px;
+  }
+
+  .careers-culture-title {
+    font-size: 28px;
+    margin: 15px 0 40px;
+  }
+
+  .careers-culture-grid {
+    gap: 20px;
+  }
+
+  .culture-item {
+    padding: 30px 20px;
+  }
+
+  .culture-item-title {
+    font-size: 18px;
+  }
+
+  .culture-item-text {
+    font-size: 13px;
+  }
+}

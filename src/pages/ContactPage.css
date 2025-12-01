@@ -178,3 +178,157 @@
     gap: 60px;
   }
 }
+
+/* Added comprehensive mobile breakpoints for better responsiveness */
+@media (max-width: 768px) {
+  .contact-page {
+    padding-top: 80px;
+  }
+
+  .page-hero {
+    padding: 40px 20px 30px;
+  }
+
+  .page-tag {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .page-title {
+    font-size: 56px;
+    letter-spacing: -3px;
+  }
+
+  .contact-main {
+    padding: 60px 20px;
+  }
+
+  .contact-heading {
+    font-size: 28px;
+  }
+
+  .contact-text {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  .contact-methods {
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .method-value {
+    font-size: 18px;
+  }
+
+  .response-box-page {
+    padding: 30px;
+  }
+
+  .response-number {
+    font-size: 48px;
+  }
+
+  .social-link-large {
+    padding: 25px 30px;
+  }
+
+  .social-link-large:hover {
+    padding-left: 40px;
+  }
+
+  .social-name {
+    font-size: 20px;
+  }
+
+  .map-section {
+    padding: 80px 20px;
+  }
+
+  .map-placeholder {
+    height: 300px;
+  }
+
+  .map-marker {
+    font-size: 36px;
+  }
+
+  .map-placeholder p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-hero {
+    padding: 30px 15px 25px;
+  }
+
+  .page-title {
+    font-size: 36px;
+    letter-spacing: -2px;
+  }
+
+  .contact-main {
+    padding: 50px 15px;
+  }
+
+  .contact-grid-page {
+    gap: 50px;
+  }
+
+  .contact-heading {
+    font-size: 24px;
+  }
+
+  .contact-text {
+    font-size: 14px;
+  }
+
+  .contact-methods {
+    gap: 25px;
+  }
+
+  .method-label {
+    font-size: 11px;
+  }
+
+  .method-value {
+    font-size: 16px;
+  }
+
+  .response-box-page {
+    padding: 25px;
+  }
+
+  .response-number {
+    font-size: 40px;
+  }
+
+  .response-label {
+    font-size: 11px;
+  }
+
+  .social-link-large {
+    padding: 20px 25px;
+  }
+
+  .social-link-large:hover {
+    padding-left: 35px;
+  }
+
+  .social-name {
+    font-size: 18px;
+  }
+
+  .social-arrow {
+    font-size: 28px;
+  }
+
+  .map-section {
+    padding: 60px 15px;
+  }
+
+  .map-placeholder {
+    height: 250px;
+  }
+}

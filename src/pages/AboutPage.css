@@ -7,7 +7,7 @@
 /* Hero section with centered layout */
 .page-hero {
   text-align: center;
-  padding: 50px 5% 30px; /* Increased top padding from 30px to 50px for a tiny bit more top margin */
+  padding: 50px 5% 30px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -340,10 +340,38 @@
   font-size: 16px;
 }
 
-/* Responsive adjustments */
+/* Enhanced responsive breakpoints for better mobile experience */
+/* Tablet landscape and below */
+@media (max-width: 1024px) {
+  .page-title {
+    font-size: 90px;
+    letter-spacing: -3px;
+  }
+
+  .story-section {
+    padding: 80px 5%;
+  }
+
+  .story-text-block {
+    padding: 50px;
+  }
+
+  .section-heading {
+    font-size: 42px;
+  }
+
+  .mission-vision-section,
+  .values-section,
+  .careers-culture {
+    padding: 80px 5%;
+  }
+}
+
+/* Tablet portrait and below */
 @media (max-width: 968px) {
   .page-title {
     font-size: 72px;
+    letter-spacing: -2px;
   }
 
   .story-container {
@@ -352,34 +380,84 @@
 
   .story-content-wrapper {
     flex-direction: column;
+    gap: 40px;
   }
 
   .mission-vision-container {
     flex-direction: column;
+    gap: 30px;
   }
 
   .values-container {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .culture-items-container {
     grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .section-heading-center,
+  .careers-culture-title {
+    font-size: 48px;
+    margin-bottom: 60px;
   }
 }
 
-@media (max-width: 640px) {
-  .page-title {
-    font-size: 48px;
+/* Mobile landscape and below */
+@media (max-width: 768px) {
+  .about-page {
+    padding-top: 80px;
   }
 
-  .section-heading,
-  .section-heading-center,
-  .careers-culture-title {
-    font-size: 36px;
+  .page-hero {
+    padding: 30px 5% 20px;
+  }
+
+  .page-tag {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+
+  .page-title {
+    font-size: 56px;
+    letter-spacing: -1px;
+  }
+
+  .story-section {
+    padding: 60px 5%;
   }
 
   .story-text-block {
-    padding: 40px;
+    padding: 40px 30px;
+  }
+
+  .section-heading {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .story-paragraph {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .stat-box-about {
+    padding: 30px;
+  }
+
+  .stat-number-about {
+    font-size: 18px;
+  }
+
+  .stat-label-about {
+    font-size: 14px;
+  }
+
+  .mission-vision-section {
+    padding: 60px 5%;
   }
 
   .mission-card,
@@ -387,7 +465,184 @@
     padding: 50px 40px;
   }
 
+  .mission-vision-title {
+    font-size: 28px;
+  }
+
+  .mission-vision-text {
+    font-size: 15px;
+  }
+
+  .values-section,
+  .careers-culture {
+    padding: 60px 5%;
+  }
+
+  .section-heading-center,
+  .careers-culture-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
   .value-card {
-    padding: 40px;
+    padding: 40px 30px;
+  }
+
+  .value-title,
+  .culture-item-title {
+    font-size: 20px;
+  }
+
+  .value-desc,
+  .culture-item-text {
+    font-size: 15px;
+  }
+
+  .culture-item {
+    padding: 40px 30px;
+  }
+}
+
+/* Mobile portrait */
+@media (max-width: 640px) {
+  .page-hero {
+    padding: 20px 5% 15px;
+  }
+
+  .page-tag {
+    font-size: 9px;
+    letter-spacing: 1.5px;
+  }
+
+  .page-title {
+    font-size: 42px;
+    letter-spacing: -0.5px;
+  }
+
+  .story-section {
+    padding: 40px 5%;
+  }
+
+  .story-text-block {
+    padding: 30px 20px;
+  }
+
+  .section-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .story-paragraph {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .stat-box-about {
+    padding: 25px 20px;
+  }
+
+  .stat-number-about {
+    font-size: 16px;
+  }
+
+  .stat-label-about {
+    font-size: 13px;
+  }
+
+  .mission-vision-section {
+    padding: 40px 5%;
+  }
+
+  .mission-card,
+  .vision-card {
+    padding: 40px 25px;
+  }
+
+  .mission-vision-tag {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .mission-vision-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .mission-vision-text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .values-section,
+  .careers-culture {
+    padding: 40px 5%;
+  }
+
+  .section-heading-center,
+  .careers-culture-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    letter-spacing: -1px;
+  }
+
+  .value-card {
+    padding: 30px 20px;
+  }
+
+  .value-card::after {
+    border-width: 0 40px 40px 0;
+  }
+
+  .value-title,
+  .culture-item-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .value-desc,
+  .culture-item-text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .culture-item {
+    padding: 30px 20px;
+  }
+}
+
+/* Extra small mobile devices */
+@media (max-width: 480px) {
+  .about-page {
+    padding-top: 70px;
+  }
+
+  .page-title {
+    font-size: 36px;
+  }
+
+  .section-heading {
+    font-size: 24px;
+  }
+
+  .section-heading-center,
+  .careers-culture-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .story-text-block,
+  .stat-box-about,
+  .mission-card,
+  .vision-card,
+  .value-card,
+  .culture-item {
+    padding: 20px 15px;
+  }
+
+  .story-paragraph,
+  .mission-vision-text,
+  .value-desc,
+  .culture-item-text {
+    font-size: 13px;
   }
 }
