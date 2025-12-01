@@ -110,7 +110,6 @@ function AboutPage() {
 
       <section className="careers-culture">
         <div className="careers-culture-content">
-          <span className="careers-culture-tag">[WHY VERTEXA]</span>
           <h2 className="careers-culture-title">OUR CULTURE</h2>
           <div className="culture-items-container">
             <div className="culture-item culture-item-1">

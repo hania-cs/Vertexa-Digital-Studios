@@ -39,11 +39,8 @@ function WhyUs() {
   return (
     <section className="why-us">
       <div className="why-us-header">
-        <div className="why-us-label">WHY CHOOSE US</div>
         <h2 className="why-us-title">
-          THE AGENCY
-          <br />
-          <span className="highlight">DIFFERENCE</span>
+          WHY CHOOSE US
         </h2>
       </div>
 

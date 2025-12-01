@@ -45,11 +45,8 @@ function OurProcess() {
   return (
     <section className="our-process">
       <div className="process-header">
-        <div className="process-label">HOW WE WORK</div>
         <h2 className="process-title">
-          OUR
-          <br />
-          <span className="highlight">PROCESS</span>
+          OUR PROCESS
         </h2>
         <p className="process-subtitle">A proven methodology that delivers exceptional results, every time.</p>
       </div>
