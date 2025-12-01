@@ -22,7 +22,7 @@ function ContactPage() {
               <div className="contact-method">
                 <h3 className="method-label">EMAIL</h3>
                 <a href="mailto:haniacs05@gmail.com" className="method-value">
-                  haniacs05@gmail.com
+                  contact@vertexa.digital
                 </a>
               </div>
 
