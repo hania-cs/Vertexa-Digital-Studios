@@ -18,7 +18,7 @@ function ProjectsPage() {
       description:
         "A clean, responsive personal portfolio site designed to showcase a psychology student's skills and work. Strong visuals, thoughtful layout, and simple structure make it easy for visitors to understand the brand, explore projects, and connect with the creator, resulting in a professional and memorable online presence.",
       tech: ["React"],
-      year: "2024",
+      year: "2025",
       image: "/portfolio.png",
       link: "https://manuelaportfolio.vercel.app/",
     },
@@ -29,7 +29,7 @@ function ProjectsPage() {
         "A clean, responsive web project designed to deliver a friendly, engaging user experience. The design blends modern visual style with intuitive navigation, giving users a smooth flow from landing to content exploration. With clear messaging, balanced layout, and thoughtful UI choices, JingleGings presents a welcoming and professional online presence that reflects strong design sensibilities and usability focus.",
       link: "https://jingle-gings.vercel.app/",
       tech: ["React"],
-      year: "2023",
+      year: "2024",
       image: "/jingle.png",
     },
   ]
@@ -41,7 +41,6 @@ function ProjectsPage() {
         <h1 className="page-title">
           PROJECTS<span className="title-dot">.</span>
         </h1>
-        <p className="page-subtitle">Featured work that showcases our expertise and creativity.</p>
       </section>
 
       <section className="projects-list">
