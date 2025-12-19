@@ -8,6 +8,24 @@ function Projects() {
 
   const projects = [
     {
+      title: "Connect Services SARL",
+      client: "Company Website",
+      year: "2025",
+      description:
+        "Official website for ConnectServices SARL, designed and developed to establish a strong, credible digital presence. The platform reflects the company’s professionalism through a clean visual language, intuitive information architecture, and performance-focused implementation. Emphasis was placed on clarity, responsiveness, and seamless navigation to communicate trust, efficiency, and reliability. The result is a modern corporate identity translated into a fast, user-centric web experience that positions ConnectServices as a structured, service-driven organization.",
+      link: "https://www.connect-services.me/",
+      image: "/ver.png",
+    },
+    {
+      title: "Crispy Time",
+      client: "Restaurant",
+      year: "2025",
+      description:
+        "A modern, high-impact website concept designed to showcase strong branding, engaging UI, and conversion-focused layout for a food business. The experience emphasizes bold visuals, clear hierarchy, smooth interactions, and full responsiveness to demonstrate how a casual dining brand can be presented with clarity and personality. Performance and usability were prioritized to ensure fast load times and an intuitive customer journey. This project is a design mockup created to showcase our web design and development capabilities; we are not affiliated with the business.",
+      link: "https://crispy-time.vercel.app/",
+      image: "/crispy.png",
+    },
+    {
       title: "Tiramisu Choice",
       client: "Dessert Brand ",
       year: "2025",
