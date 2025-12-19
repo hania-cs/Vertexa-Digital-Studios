@@ -14,7 +14,7 @@ function Projects() {
       description:
         "Official website for ConnectServices SARL, designed and developed to establish a strong, credible digital presence. The platform reflects the company’s professionalism through a clean visual language, intuitive information architecture, and performance-focused implementation. Emphasis was placed on clarity, responsiveness, and seamless navigation to communicate trust, efficiency, and reliability. The result is a modern corporate identity translated into a fast, user-centric web experience that positions ConnectServices as a structured, service-driven organization.",
       link: "https://www.connect-services.me/",
-      image: "/ver.png",
+      image: "/connect.png",
     },
     {
       title: "Crispy Time",
@@ -25,6 +25,7 @@ function Projects() {
       link: "https://crispy-time.vercel.app/",
       image: "/crispy.png",
     },
+    
     {
       title: "Tiramisu Choice",
       client: "Dessert Brand ",
